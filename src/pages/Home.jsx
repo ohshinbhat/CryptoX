@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <div className='min-h-screen '>
         <Navbar />
-        <div className='px-[100px]'>
+        <div className='px-[100px] sm:px-[32px]'>
           <div className='flex flex-row justify-between items-center pt-[100px]'>
             <div className='flex flex-col gap-5'>
               <h1 id='hero' className='bg-gradient-to-b from-white to-[#886AFF] bg-clip-text text-transparent text-[6rem] leading-none'>DIGITAL CURRENCY <br/>EXCHANGE<br/> MADE EASIER</h1>
@@ -20,7 +20,7 @@ const Home = () => {
               </div>
             </div>
             <div>
-              <img src={hero} className='max-w-lg'/>
+              <img src={hero} className='w-1/2 md:w-96 lg:w-[32rem]'/>
             </div>
 
           </div>
